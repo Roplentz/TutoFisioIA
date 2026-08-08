@@ -14,3 +14,4 @@ export interface ModuleContract<TCommand, TResult> {
 }
 
 export * from "./tenancy.js";
+export * from "./auth.js";
