@@ -1,13 +1,17 @@
 {
   "name": "tutoria-fisio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tutor inteligente baseado em currículo e competências para Fisioterapia",
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
-    "build": "echo 'Implementação prevista para a Release 1'",
-    "test": "echo 'Testes serão adicionados com a primeira feature'",
-    "lint": "echo 'Lint será configurado no bootstrap técnico'"
+    "dev": "npm run dev --workspace=@tutoria-fisio/web",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "check": "npm run lint && npm run typecheck && npm run test && npm run build"
   },
-  "engines": {"node": ">=22"}
+  "engines": {"node": ">=22"},
+  "packageManager": "npm@11.9.0"
 }
