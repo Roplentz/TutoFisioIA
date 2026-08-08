@@ -1,0 +1,13 @@
+{
+  "name": "tutoria-fisio",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Tutor inteligente baseado em currículo e competências para Fisioterapia",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "build": "echo 'Implementação prevista para a Release 1'",
+    "test": "echo 'Testes serão adicionados com a primeira feature'",
+    "lint": "echo 'Lint será configurado no bootstrap técnico'"
+  },
+  "engines": {"node": ">=22"}
+}
