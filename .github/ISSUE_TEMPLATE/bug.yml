@@ -1,0 +1,25 @@
+name: Bug
+description: Relatar comportamento incorreto
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Comportamento observado
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Como reproduzir
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Impacto e risco
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+name: Feature
+description: Propor uma capacidade do TutorIA Fisio
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: Problema do usuário
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Critérios de aceite
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Segurança, dados e IA
+      description: Registre riscos, observabilidade e avaliações necessárias.
+    validations:
+      required: true
