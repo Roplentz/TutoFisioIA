@@ -12,3 +12,5 @@ export interface DomainEvent<TPayload extends Record<string, unknown> = Record<s
 export interface ModuleContract<TCommand, TResult> {
   execute(command: TCommand): Promise<TResult>;
 }
+
+export * from "./tenancy.js";
